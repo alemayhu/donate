@@ -21,3 +21,10 @@ To prepare a production run
 ```
 yarn build
 ```
+
+## LICENSE
+
+The image in the static folder used for [Hey Meta][hm] is thanks to [Milan Popovic][mp] for sharing their work on Unsplash.
+
+[mp]: https://unsplash.com/@itsmiki5
+[hm]: https://heymeta.com
