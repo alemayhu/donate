@@ -22,7 +22,7 @@
         "imba-snowpack",
         {
           "entrypoints": [
-            "app-root"
+            "site"
           ]
         }
       ]
