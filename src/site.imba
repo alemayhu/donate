@@ -14,7 +14,6 @@ tag donate-app
 	prop github = "https://github.com/sponsors/alemayhu"
 	prop patreon = "https://www.patreon.com/alemayhu"
 
-
 	def render
 		<self.x>
 			<header[ta: center]>
@@ -24,6 +23,6 @@ tag donate-app
 				<h2[fs: 3xl]> "Donate today"
 				<p[fs: 2xl]> "You can support my work on free and open software via the following ways."
 			<div[d: grid g: 0.5rem j: center]>
-				<donate-button[bc: lightgray bg@hover: silver] href=github label="💖 GitHub Sponsors">
+				<donate-button[bc: lightgray bg@hover: silver c@hover: white] href=github label="💖 GitHub Sponsors">
 				<donate-button[bc: #009cde bg@hover: #012169 c@hover: white] href=paypal label="💙 Paypal">
 				<donate-button[bc: #f96854 bg@hover: tomato] href=patreon label="🧡 Patreon">
