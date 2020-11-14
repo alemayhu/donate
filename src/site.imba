@@ -18,13 +18,13 @@ tag donate-app
 	def render
 		<self.x>
 			<header[ta: center]>
-				<h1> "Donation page for A. Alemayhu"
-			<hr[border: 0.1px solid black]>					
-			<section[mx: 2rem]> <div[d: grid j: center]>
-				<h2[fs: 3xl]> "Donate today"
-				<p[fs: 2xl]> "You can support my work on free and open software via the following ways."
-			<div[d: grid g: 0.5rem j: center]>
-				<donate-button[bc: lightgray bg@hover: silver c@hover: white] href=github label="💖 GitHub Sponsors">
-				<donate-button[bc: #009cde bg@hover: #012169 c@hover: white] href=paypal label="💙 Paypal">
-				<donate-button[bc: #f96854 bg@hover: tomato] href=patreon label="🧡 Patreon">
-				<donate-button[bc: #6441A4 bg@hover: white] href=twitch label="💜 Twitch">
+				<h1> "Donation Page for Alexander Alemayhu"
+			<hr[border: 0.1px solid black]>
+			<p[ta: center fs: 2xl]> "You can support my me and my open source work via the following ways."			
+			<div[jc: center d: flex g: 2rem]>
+				<img[w: 15vw] src="milan-popovic-YjN1l87BUOk-unsplash.jpg">
+				<div[d: grid g: 0.5rem j: center]>
+					<donate-button[bc: #6441A4 bg@hover: white] href=twitch label="💜 Twitch">
+					<donate-button[bc: lightgray bg@hover: silver c@hover: white] href=github label="🖤 GitHub">
+					<donate-button[bc: #009cde bg@hover: #012169 c@hover: white] href=paypal label="💙 Paypal">
+					<donate-button[bc: #f96854 bg@hover: tomato] href=patreon label="🧡 Patreon">
