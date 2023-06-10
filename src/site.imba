@@ -13,7 +13,6 @@ tag donate-app
 	prop paypal = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WUARHGVHUZ5FL&source=ur"
 	prop github = "https://github.com/sponsors/alemayhu"
 	prop patreon = "https://www.patreon.com/alemayhu"
-	prop twitch = "https://www.twitch.tv/subs/alemayhu"
 
 	def render
 		<self.x>
@@ -24,7 +23,6 @@ tag donate-app
 			<div[jc: center d: flex g: 2rem]>
 				<img[w: 15vw] src="milan-popovic-YjN1l87BUOk-unsplash.jpg">
 				<div[d: grid g: 0.5rem j: center]>
-					<donate-button[bc: #6441A4 bg@hover: white] href=twitch label="💜 Twitch">
 					<donate-button[bc: lightgray bg@hover: silver c@hover: white] href=github label="🖤 GitHub">
 					<donate-button[bc: #009cde bg@hover: #012169 c@hover: white] href=paypal label="💙 Paypal">
 					<donate-button[bc: #f96854 bg@hover: tomato] href=patreon label="🧡 Patreon">
